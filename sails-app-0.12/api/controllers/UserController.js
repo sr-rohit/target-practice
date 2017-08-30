@@ -11,5 +11,9 @@ module.exports = {
   findOne: function(req, res) {
 
     return res.send("Hello User/findOne");
+  },
+  set: function(req, res) {
+    
+    console.log(sails.cache);
   }
 };
