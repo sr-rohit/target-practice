@@ -4,8 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "29d94c7dd016e2baac4d05bfe6002ee8",
+    "content-hash": "8a396906e46fd44154b26df612cf673f",
     "packages": [
+        {
+            "name": "avalara/avatax",
+            "version": "15.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avadev/AvaTax-Calc-SOAP-PHP.git",
+                "reference": "5f1e6539c6c086be6ac137a824e265c646aef452"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avadev/AvaTax-Calc-SOAP-PHP/zipball/5f1e6539c6c086be6ac137a824e265c646aef452",
+                "reference": "5f1e6539c6c086be6ac137a824e265c646aef452",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AvaTax\\": "AvaTax"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A set of classes to assist with integration to the Avalara AvaTax SOAP API.",
+            "time": "2017-05-25T15:46:32+00:00"
+        },
         {
             "name": "braintree/braintree_php",
             "version": "3.7.0",
@@ -5395,6 +5422,88 @@
                 "framework"
             ],
             "time": "2017-02-27T21:19:07+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "116f09335c272e0758bd47bd09d5d45dacb17369"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/116f09335c272e0758bd47bd09d5d45dacb17369",
+                "reference": "116f09335c272e0758bd47bd09d5d45dacb17369",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "time": "2017-10-03T03:47:22+00:00"
+        },
+        {
+            "name": "mageplaza/module-smtp",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-smtp.git",
+                "reference": "5d349d3de088c4393b1da75316c7f9ccf388de0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/5d349d3de088c4393b1da75316c7f9ccf388de0f",
+                "reference": "5d349d3de088c4393b1da75316c7f9ccf388de0f",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Mageplaza\\Smtp\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Mageplaza License"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
+            "keywords": [
+                "email settings",
+                "magento 2",
+                "mageplaza",
+                "smtp"
+            ],
+            "time": "2017-08-22T02:19:05+00:00"
         },
         {
             "name": "monolog/monolog",
