@@ -11,7 +11,7 @@
         "magento/product-community-edition": "2.1.8",
         "composer/composer": "@alpha",
         "mageplaza/module-smtp": "^1.0",
-        "avalara/avatax": "^15.5"
+        "classyllama/module-avatax": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
