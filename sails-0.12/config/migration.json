@@ -1,0 +1,8 @@
+{
+    "local": {
+        "driver": "mongodb",
+        "host": "localhost",
+        "port": 28002,
+        "database": "trial"
+    } 
+}
