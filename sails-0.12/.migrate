@@ -1,0 +1,17 @@
+{
+  "lastRun": "1516175306114-0-0-1-tmp2.js",
+  "migrations": [
+    {
+      "title": "1516175306114-0-0-1-tmp2.js",
+      "timestamp": 1516175342923
+    },
+    {
+      "title": "20180117070808-trial.js",
+      "timestamp": null
+    },
+    {
+      "title": "20180117072814-trial1.js",
+      "timestamp": null
+    }
+  ]
+}
