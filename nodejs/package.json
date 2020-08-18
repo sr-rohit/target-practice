@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "amqplib": "^0.5.3"
+    "amqplib": "^0.5.3",
+    "whelk": "6.0.1",
+    "machine": "15.2.2"
   }
 }
