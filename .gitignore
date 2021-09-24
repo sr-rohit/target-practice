@@ -1,8 +1,17 @@
+# Editor generated files and directories
 .idea
+
+### NodeJS ###
+# NodeJS generated files and directories
 node_modules/
 dist/
 **/*.lock
 **/*.log
+
+### Java ###
+# Java, Spring, Spring Boot generated files and directories
+build/
+.gradle/
 
 ### ApacheCordova ###
 # Apache Cordova generated files and directories
